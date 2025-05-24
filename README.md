@@ -1,42 +1,135 @@
-# C++ 文件编辑器
+# Snake Game with AI Opponent 🐍
 
-这是一个具有以下功能的C++文件编辑器：
-- 导入TTF字体文件并保存至D:\cFONTS目录
-- 支持自定义字体显示
-- 支持C++语法高亮
-- 行号显示
-- 基本的文件操作（新建、打开、保存）
+A modern implementation of the classic Snake game using Python and Pygame, featuring an AI opponent and multiple food items.
 
-## 安装依赖
+## Features ✨
 
-在运行程序之前，请确保安装了所需的依赖：
+- Classic snake gameplay with smooth controls
+- AI opponent that competes for food
+- Multiple food items with different colors
+- Score tracking for both player and AI
+- Custom font support with font switching capability
+- Responsive window design
+- Collision detection and game reset functionality
 
+## Requirements 📋
+
+- Python 3.x
+- Pygame
+
+## Installation 🚀
+
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/yourusername/snake-game.git
+cd snake-game
 ```
 
-## 使用方法
-
-1. 运行程序：
+2. Install the required dependencies:
 ```bash
-python cpp_editor.py
+pip install pygame
 ```
 
-2. 导入字体：
-   - 点击菜单栏中的"字体" -> "导入字体"
-   - 选择要导入的TTF字体文件
-   - 字体将被复制到D:\cFONTS目录并自动应用
+## How to Play 🎮
 
-3. 编辑文件：
-   - 使用"文件"菜单或工具栏按钮进行新建、打开、保存操作
-   - 编辑器支持C++语法高亮
-   - 左侧显示行号
+1. Run the game:
+```bash
+python snake_game.py
+```
 
-## 功能说明
+2. Controls:
+- Use arrow keys to control the snake's direction
+- Press 'F' to switch between available fonts
+- Close the window to exit the game
 
-- 新建文件：创建新的编辑窗口
-- 打开文件：打开现有的C++文件
-- 保存文件：将当前内容保存为C++文件
-- 导入字体：导入新的TTF字体文件
-- 语法高亮：自动对C++代码进行语法高亮显示
-- 行号显示：在编辑区左侧显示行号 
+## Game Rules 📜
+
+- The snake grows when it eats food
+- The game resets if the snake collides with itself
+- Both player and AI compete for the same food items
+- The snake can pass through walls and appear on the opposite side
+
+## Customization 🎨
+
+You can customize the game by modifying these parameters in the code:
+- `WINDOW_WIDTH` and `WINDOW_HEIGHT`: Change the window size
+- `BLOCK_SIZE`: Adjust the size of the snake and food
+- `GAME_SPEED`: Modify the game speed
+- `FOOD_COUNT`: Change the number of food items
+
+## Font Support 🖋️
+
+The game supports custom fonts. Place your font files in the `gameFONTS` directory:
+- Supported formats: .ttf, .ttc
+- Default font will be used if no custom fonts are found
+
+---
+
+# 贪吃蛇游戏与AI对手 🐍
+
+使用Python和Pygame实现的现代版经典贪吃蛇游戏，具有AI对手和多种食物特性。
+
+## 特性 ✨
+
+- 流畅控制的经典贪吃蛇玩法
+- 竞争食物的AI对手
+- 多种颜色的食物
+- 玩家和AI的分数追踪
+- 自定义字体支持，可切换字体
+- 响应式窗口设计
+- 碰撞检测和游戏重置功能
+
+## 系统要求 📋
+
+- Python 3.x
+- Pygame
+
+## 安装说明 🚀
+
+1. 克隆仓库：
+```bash
+git clone https://github.com/yourusername/snake-game.git
+cd snake-game
+```
+
+2. 安装所需依赖：
+```bash
+pip install pygame
+```
+
+## 游戏玩法 🎮
+
+1. 运行游戏：
+```bash
+python snake_game.py
+```
+
+2. 控制方式：
+- 使用方向键控制蛇的移动方向
+- 按'F'键切换可用字体
+- 关闭窗口退出游戏
+
+## 游戏规则 📜
+
+- 蛇吃到食物后会变长
+- 蛇撞到自己时游戏重置
+- 玩家和AI竞争相同的食物
+- 蛇可以穿过墙壁从对面出现
+
+## 自定义设置 🎨
+
+你可以通过修改代码中的以下参数来自定义游戏：
+- `WINDOW_WIDTH` 和 `WINDOW_HEIGHT`：更改窗口大小
+- `BLOCK_SIZE`：调整蛇和食物的大小
+- `GAME_SPEED`：修改游戏速度
+- `FOOD_COUNT`：更改食物数量
+
+## 字体支持 🖋️
+
+游戏支持自定义字体。将字体文件放在 `gameFONTS` 目录中：
+- 支持的格式：.ttf, .ttc
+- 如果未找到自定义字体，将使用默认字体
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
