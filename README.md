@@ -27,6 +27,10 @@ cd snake-game
 
 2. Install the required dependencies:
 ```bash
+# Using requirements.txt (recommended)
+pip install -r requirements.txt
+
+# Or install pygame directly
 pip install pygame
 ```
 
@@ -94,6 +98,10 @@ cd snake-game
 
 2. 安装所需依赖：
 ```bash
+# 使用 requirements.txt 安装（推荐）
+pip install -r requirements.txt
+
+# 或直接安装 pygame
 pip install pygame
 ```
 
