@@ -216,7 +216,7 @@ def main():
                 foods.remove(food)
                 foods.append(Food())
                 print(f"玩家吃到食物！当前长度：{player.length}，得分：{player.score}")
-            elif check_collision(opponent_next_pos, food.position):
+            elif check_collision(opponent.get_head_position(), food.position):  # 修复：使用敌人头部位置检测碰撞
                 opponent.grow()
                 foods.remove(food)
                 foods.append(Food())
@@ -261,4 +261,4 @@ def main():
         clock.tick(GAME_SPEED)
 
 if __name__ == '__main__':
-    main() 
+    main()
