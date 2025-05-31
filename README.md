@@ -21,7 +21,7 @@ A modern implementation of the classic Snake game using Python and Pygame, featu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/snake-game.git
+git clone https://github.com/lldcfk-LLDCFK/snake-game.git
 cd snake-game
 ```
 
@@ -92,7 +92,7 @@ The game supports custom fonts. Place your font files in the `gameFONTS` directo
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/snake-game.git
+git clone https://github.com/lldcfk-LLDCFK/snake-game.git
 cd snake-game
 ```
 
